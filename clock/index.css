@@ -1,0 +1,37 @@
+#clock-container{
+    position: relative;
+    margin: auto;
+    border: 2px solid red;
+    height: 40vw;
+    width: 40vw;
+    background: url('clock.png') no-repeat center center/cover; /* i can do dist to do background property 100%*/
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.2%;
+    height: 25%;
+    top: 25%;
+    left: 49.4%;
+    
+}
+#minute{
+    width: 1.2%;
+    height: 30%;
+    top: 20%;
+    left: 49.4%;
+    
+}
+#second{
+    width: 1%;
+    height: 36%;
+    top: 15%;
+    left: 49.4%;
+    
+}
